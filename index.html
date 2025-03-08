@@ -3,21 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>test</title>
+  <title>Anonymous Demo Page for DetAny3D</title>
   <style>
     .image-row {
       display: flex;
-      flex-wrap: wrap; /* 如果屏幕过窄可换行 */
+      flex-wrap: wrap;
     }
     .image-row img {
-      width: 25%; /* 每个图片占容器的 25% */
-      height: auto;
+      width: 25%;        /* 每个图片占容器的25%宽度 */
+      height: 200px;     /* 固定图片高度，可根据需要调整 */
+      object-fit: cover; /* 保持宽高比例，超出部分自动裁剪 */
     }
   </style>
 </head>
 <body>
   <h1>Anonymous Demo Page for DetAny3D</h1>
-  <div class="image-row">
+    <div class="image-row">
     <img src="static/images/image51.webp" alt="test4">
     <img src="static/images/image44.webp" alt="test4">
     <img src="static/images/image39.webp" alt="test4">
@@ -43,3 +44,4 @@
   </div>
 </body>
 </html>
+
