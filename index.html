@@ -140,6 +140,53 @@
 </section> --> -->
 <!-- End teaser video -->
 
+  <style>
+  /* 将轮播容器设为水平滚动区域 */
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px; /* 每个图片项之间的间距 */
+    padding: 10px;
+  }
+  /* 每个轮播项固定宽度 */
+  .carousel .item {
+    flex: 0 0 auto;
+    width: 150px; /* 根据需求调整宽度 */
+  }
+  /* 图片自适应容器 */
+  .carousel .item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">First image description.</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/image_13.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">Second image description.</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">Third image description.</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">Fourth image description.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -159,34 +206,34 @@
 
 
 <!-- Image carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+<!--         <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
-      <div class="item">
+      <div class="item"> -->
         <!-- Your image here -->
-        <img src="static/images/image_13.png" alt="MY ALT TEXT"/>
+<!--         <img src="static/images/image_13.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
-      <div class="item">
+      <div class="item"> -->
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+<!--         <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
-     <div class="item">
+     <div class="item"> -->
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+<!--       <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
       </h2>
@@ -194,7 +241,7 @@
   </div>
 </div>
 </div>
-</section>
+</section> --> -->
 <!-- End image carousel -->
 
 
